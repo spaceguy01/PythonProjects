@@ -1,5 +1,8 @@
 from selenium import webdriver
 
+"""Goes to Udemy website for Selenium-Webdriver-With-Python3 Course,
+clicks on tab to show more topics, then scrapes titles of the subjects"""
+
 driver = webdriver.Chrome()
 
 url = 'https://www.udemy.com/selenium-webdriver-with-python3/'
