@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 
-
+"""Goes to Youtube/Trending page, scrapes the titles of the Trending videos"""
 #URL
 page = 'https://www.youtube.com/feed/trending'
 
