@@ -1,5 +1,6 @@
 import speech_recognition as sr
 
+"""Turns speech into Text using Speech Recognition"""
 
 r = sr.Recognizer()
 
