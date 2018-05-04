@@ -1,5 +1,7 @@
 import requests
 
+"""Input a City to get current weather"""
+
 api_address = 'http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=777787647ba4bfe6f48fc4c17b1a5ef3&q='
 
 city = input('City Name : ')
