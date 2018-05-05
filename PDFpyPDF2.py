@@ -12,6 +12,11 @@ print (pdf.numPages)
 """ Get a specific page in PDF and extract Text from PDF """
 page = pdf.getPage(0)
 page_text = page.extractText()
+print (page_text)
+
+""" Extracting Text from all PDF pages in the file """
+for pageNum in range(pdf.numPages):
+    print (pdf.getPage(pageNum).extractText())
 
 
 """ COMBINING TWO PDF FILES """
